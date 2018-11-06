@@ -1,0 +1,184 @@
+/*# sourceMappingURL=style.css.map */
+
+
+.bd {
+    border: 2px solid red;
+}
+
+.profile-body {
+    width: 200px;
+    height: 200px;
+    border: 2ps solid red;
+    background: none;
+}
+.profile-body img {
+    width: 100%;
+    height: 100%;
+}
+.hearder-image {
+    width: 100px;
+    height: 100px;
+}
+.hearder-image img {
+    width: 100%;
+    height: 100%;
+}
+/* */
+.flex {
+    display: flex;
+}
+.flex-c {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid yellow;
+    position: relative;
+    width: 50%;
+}
+.jan {
+    font-size: 20px;
+    color: brown;
+    font-weight: bold;
+}
+.moment {
+    position: absolute;
+    bottom: 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Styling sidebar from MARK*/
+.mark-E {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background: none;
+}
+.founder {
+    font-size: 16px;
+    text-align: center;
+    width: 80%;
+    font-weight: 500;
+}
+.item {
+    font-size: 25px;
+    font-size: 500;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 80%;
+}
+.empt {
+    border: 2px dashed black;
+    width: 150px;
+    margin: 0 auto;
+}
+.emp {
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+}
+.cent {
+    display: flex;
+    justify-content: center;
+}
+.emp2 {
+    border-bottom: 1px dashed black;
+    
+}
+
+/* email & btn */
+.email input {
+    width: 100%;
+    height: 50px;
+    text-indent: 15px;
+}
+.email {
+    margin: 20px auto;
+    width: 60%;
+}
+
+.subscribe button {
+    width: 100%;
+    background: grey;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    text-shadow: black;
+}
+.subscribe {
+    width: 50%;
+    margin: 0 auto;
+}
+/* */
+.set {
+    width: 30px;
+    height: 30px;
+}
+.set img {
+    width: 100%;
+    height: 100%;
+}
+/* social media icons */
+.icons {
+    width: 30px;
+    height: 30px;
+}
+.icons img {
+    width: 100%;
+    height: 100%;
+}
+.icon-cover {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    font-weight: bold;
+}
+.magin {
+    margin-right: 10%;
+}
+/* */
+.reason {
+    font-size: 20px;
+    font-weight: 500;
+}
+.break {
+    border: 1px solid black;
+    width: 70%;
+    margin: 0 auto;
+}
+.indent {
+    text-indent: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* */
+.blog-cover {
+    width: 100%;
+    height: 300px;
+}
+.blog-cover img {
+    width: 100%;
+    height: 100%;   
+}
+/* */
+.text textarea {
+    width: 100%;
+    height: 200px;
+}
+/* */
+.like button {
+    width: 100px;
+    height: 50px;
+    background: blue;
+    color: white;
+    border: none;
+}
+.likey {
+    width: 20px;
+    height: 20px;
+}
+.likey img {
+    width: 100%;
+    height: 100%;
+}
