@@ -2,13 +2,13 @@
 
 
 .bd {
-    border: 2px solid red;
+    /* border: 2px solid red;*/
 }
 
 .profile-body {
     width: 200px;
     height: 200px;
-    border: 2ps solid red;
+   /* border: 2px solid red; */
     background: none;
 }
 .profile-body img {
@@ -30,7 +30,7 @@
 .flex-c {
     display: flex;
     flex-direction: column;
-    border: 2px solid yellow;
+   /* border: 2px solid yellow; */
     position: relative;
     width: 50%;
 }
