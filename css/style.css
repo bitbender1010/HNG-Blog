@@ -230,7 +230,7 @@
     background-color: lightgrey;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 765px) {
     
     .profile-body {
         margin: 0 auto;
