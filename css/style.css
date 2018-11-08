@@ -1,14 +1,17 @@
 /*# sourceMappingURL=style.css.map */
 
 
-.bd {
-    /* border: 2px solid red;*/
+.down {
+    margin-top: 100px;
+}
+.line {
+    border-right: 2px solid black;
 }
 
 .profile-body {
     width: 200px;
     height: 200px;
-   /* border: 2px solid red; */
+   /* border: 2ps solid red; */
     background: none;
 }
 .profile-body img {
@@ -30,9 +33,9 @@
 .flex-c {
     display: flex;
     flex-direction: column;
-   /* border: 2px solid yellow; */
+    /*border: 2px solid yellow;*/
     position: relative;
-    width: 50%;
+    width: 100%;
 }
 .jan {
     font-size: 20px;
@@ -75,6 +78,10 @@
 .emp {
     border-top: 1px dashed black;
     border-bottom: 1px dashed black;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    left: -20px;
 }
 .cent {
     display: flex;
@@ -82,7 +89,10 @@
 }
 .emp2 {
     border-bottom: 1px dashed black;
-    
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: -20px;
 }
 
 /* email & btn */
@@ -177,8 +187,105 @@
 .likey {
     width: 20px;
     height: 20px;
+    margin-right: 10px;
+    margin-top: -3px;
 }
 .likey img {
     width: 100%;
     height: 100%;
+}
+/* */
+.like {
+    display: flex;
+    
+}
+.like button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+.like .like-1 {
+    display: flex;
+    margin-right: 20px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    justify-content: center;
+}
+/* */
+.share {
+    background: blue;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* */
+.text {
+    font-size: 20px;
+}
+.text textarea {
+    background-color: lightgrey;
+}
+
+@media (max-width: 426px) {
+    
+    .profile-body {
+        margin: 0 auto;
+    }
+    .mark-E, .founder {
+        text-align: center;
+    }
+    .founder {
+        width: 100%;
+    }
+    .item {
+        font-size: 25px;
+        font-size: 500;
+        margin: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        width: 100%;
+    }
+    .icon-cover {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-weight: bold;
+    }
+    .emp {
+        width: 50%;
+        margin: 0 auto;
+        position: relative;
+        left: 0px;
+    }
+    .emp2 {
+        width: 50%;
+        margin: 0 auto;
+        position: relative;
+        left: 10px;
+    }
+    .moment {
+        position: absolute;
+        bottom: 0px;
+        font-size: 27px;
+        font-weight: bold;
+    }
+    .jan {
+        font-size: 15px;
+        color: brown;
+        font-weight: bold;
+    }
+    .down {
+        margin-top: 50px;
+    }
+    .reason, .indent {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .text {
+        font-size: 18px;
+    }
 }
